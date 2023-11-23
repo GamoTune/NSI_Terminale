@@ -1,0 +1,86 @@
+{
+    "joueurs" : {
+        "joueur1" : {
+            "nom" : "Pukseno",
+            "role" : "Leader",
+            "couleur" : "bleu",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur2" : {
+            "nom" : "PetitPoney",
+            "role" : "AWPer",
+            "couleur" : "vert",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur3" : {
+            "nom" : "GamoTune",
+            "role" : "Fragger",
+            "couleur" : "violet",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur4" : {
+            "nom" : "Zenyth",
+            "role" : "Support",
+            "couleur" : "orange",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur5" : {
+            "nom" : "A.R.O.Dynamics",
+            "role" : "Lurker",
+            "couleur" : "jaune",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur6" : {
+            "nom" : "Esteban",
+            "role" : "Substitute",
+            "couleur" : "bleu",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur7" : {
+            "nom" : "Ducky",
+            "role" : "Substitute",
+            "couleur" : "jaune",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        },
+        "joueur8" : {
+            "nom" : "Doc-Grim490",
+            "role" : "Substitute",
+            "couleur" : "vert",
+            "stat" : {
+                "K" : 15,
+                "D" : 10,
+                "A" : 5
+            }
+        }
+
+    }
+
+}

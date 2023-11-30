@@ -3,11 +3,11 @@
 def correspond(mot, mot_a_trous):
     if (len(mot) == len(mot_a_trous)):
         for i in range(len(mot)):
-            if mot[i] == mot[i] or mot[i] == '*':
+            if mot[i] == mot_a_trous[i] or mot[i] == '*':
                 return True
     return False
 
-print("Le mot INFORMATIQUE correspond à INFO*MA*IQUE : ", correspond('INFORMATIQUE', 'INFO*MA*IQUE'))
+print("Le mot INFORMATIQUE correspond à INFO*MA*I*UE : ", correspond('INFORMATIQUE', 'INFO*MA*IQUE'))
 print("Le mot AUTOMATIQUE correspond à INFO*MA*IQUE : ", correspond('AUTOMATIQUE', 'INFO*MA*IQUE'))
 print("Le mot STOP correspond à S* : ", correspond('STOP', 'S*'))
 print("Le mot AUTO correspond à *UT* : ", correspond('AUTO', '*UT*'))
@@ -17,7 +17,7 @@ assert correspond('AUTOMATIQUE', 'INFO*MA*IQUE') == False
 assert correspond('STOP', 'S*') == False
 assert correspond('AUTO', '*UT*') == True
 
-print()
+print("--------------------------------------------------------------------")
 
 def est_cyclique(plan):
     '''

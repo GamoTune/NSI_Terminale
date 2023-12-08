@@ -1,4 +1,5 @@
 #Exo 1
+
 def multiplication(n1,n2):
     s=0
     if n1==0 or n2==0:
@@ -10,15 +11,19 @@ def multiplication(n1,n2):
     for i in range(n2):
         s = s+n1
     return s
-print(multiplication(3, 5))
-print(multiplication(-4, -8))
-print(multiplication(-2, 6))
-print(multiplication(-2, 0))
+
+print("La multiplication de 3 avec 5 est : ",multiplication(3, 5))
+print("La multiplication de -4 avec -8 est : ",multiplication(-4, -8))
+print("La multiplication de -2 avec 6 est : ",multiplication(-2, 6))
+print("La multiplication de -2 avec 0 est : ",multiplication(-2, 0))
 assert multiplication(3, 5) == 15
 assert multiplication(-4, -8) == 32
 assert multiplication(-2, 6) == -12
 assert multiplication(-2, 0) == 0
+
+
 #Exo 2
+
 def chercher(tab, n, i, j):
     if i < 0 or j > len(tab):
         return None

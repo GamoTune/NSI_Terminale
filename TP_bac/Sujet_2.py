@@ -11,8 +11,8 @@ def indices_maxi(tab):
             indices.append(index)
     return max, indices
 
-print("L'indice maxi dans [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] est : ", indices_maxi([1, 5, 6, 9, 1, 2, 3, 7, 9, 8])[0], "\n et ces indices sont : ", indices_maxi([1, 5, 6, 9, 1, 2, 3, 7, 9, 8])[1])
-print("L'indice maxi dans [1, 5, 6, 9, 1, 2, 3, 7, 9, 8] est : ", indices_maxi([7])[0], "\n et ces indices sont : ", indices_maxi([7])[1])
+print("L'indice maxi dans [1, 2, 3, 4, 5, 6, 7, 8, 9, 10] est : ", indices_maxi([1, 5, 6, 9, 1, 2, 3, 7, 9, 8])[0], " et ces indices sont : ", indices_maxi([1, 5, 6, 9, 1, 2, 3, 7, 9, 8])[1])
+print("L'indice maxi dans [1, 5, 6, 9, 1, 2, 3, 7, 9, 8] est : ", indices_maxi([7])[0], " et ces indices sont : ", indices_maxi([7])[1])
 
 assert indices_maxi([1, 5, 6, 9, 1, 2, 3, 7, 9, 8]) == (9, [3,8])
 assert indices_maxi([7]) == (7, [0])

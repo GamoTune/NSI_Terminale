@@ -72,7 +72,7 @@ c2_class = Carre([1, 7, 7, 1], 2)
 c3_class = Carre([3, 4, 5, 4, 4, 4, 5, 4, 3], 3)
 c3bis_class = Carre([2, 9, 4, 7, 0, 3, 6, 1, 8], 3)
 
-print( c2_class.est_semimagique())
+print(c2_class.est_semimagique())
 print(c3_class.est_semimagique())
 print(c3bis_class.est_semimagique())
 

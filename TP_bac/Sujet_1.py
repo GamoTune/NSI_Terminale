@@ -19,7 +19,7 @@ assert verifie([5]) == True
 
 print()
 
-
+#Exercice 2
 urne = ['A', 'A', 'A','B', 'C', 'B', 'C','B', 'C', 'B']
 
 def depouille(urne):
@@ -32,12 +32,10 @@ def depouille(urne):
     return resultat
 
 def vainqueur(election):
-    vainqueur = ''
     nmax = 0
     for candidat in election:
         if election[candidat] > nmax :
             nmax = election[candidat]
-            vainqueur = candidat
     liste_finale = [nom for nom in election if election[nom] == nmax]
     return liste_finale
 

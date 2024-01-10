@@ -65,4 +65,16 @@ def zoomDessin(grille, k):
 
 
 affiche(coeur)
-affiche(zoomDessin(coeur, 3)) 
+affiche(zoomDessin(coeur, 3))
+
+trad_linguistique = moyenne([(17, 7), (6, 7)])
+print(moyenne([(trad_linguistique, 7), (7, 4), (10, 4), (11, 7), (16, 3), (10, 3), (10, 2)]))
+
+#Trad : 17, 7
+#Linguistique : 6, 7
+#Civilisation GB, US : 7, 4
+#Histoire de l'art, Textes et images : 10, 4
+#Litérature : 11, 7
+#Comprehension oral : 16, 3
+#Civilisation de l'antiquité : 10, 3
+#Pix : 10, 2

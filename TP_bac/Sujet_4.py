@@ -5,7 +5,19 @@ def a_doublon(lst):
         if lst[i] == lst[i+1]: return True
     return False
 
-print(a_doublon([2, 5, 7, 7, 7, 9]))
+print("Y a t'il un doublon dans [] : ", a_doublon([]))
+print("Y a t'il un doublon dans [2, 5, 7, 7, 7, 9] : ", a_doublon([2, 5, 7, 7, 7, 9]))
+print("Y a t'il un doublon dans [1, 2, 4, 6, 6] : ", a_doublon([1, 2, 4, 6, 6]))
+print("Y a t'il un doublon dans [2, 5, 7, 7, 7, 9] : ", a_doublon([2, 5, 7, 7, 7, 9]))
+print("Y a t'il un doublon dans [0, 2, 3] : ", a_doublon([0, 2, 3]))
+
+
+assert a_doublon([]) == False
+assert a_doublon([2, 5, 7, 7, 7, 9]) == True
+assert a_doublon([1, 2, 4, 6, 6]) == True
+assert a_doublon([2, 5, 7, 7, 7, 9]) == True
+assert a_doublon([0, 2, 3]) == False
+
 
 
 print()
@@ -52,3 +64,4 @@ def génère_grille(bombes):
 
 
 print(génère_grille([(1, 1), (2, 4), (3, 1), (3, 3), (4, 4)]))
+assert génère_grille([(1, 1), (2, 4), (3, 1), (3, 3), (4, 4)]) == grille_test

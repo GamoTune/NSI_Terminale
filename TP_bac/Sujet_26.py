@@ -1,8 +1,4 @@
-"""
-Exercice N°1
-"""
-
-print("\033[92mExercice N°1\033[0m")
+#Exercice 1
 
 def multiplication(n1, n2) :
     s=0
@@ -16,10 +12,10 @@ def multiplication(n1, n2) :
         s = s+n1
     return s
 
-print("multiplication(3, 5) =", multiplication(3, 5))
-print("multiplication(-4, -8) =",multiplication(-4, -8))
-print("multiplication(-2, 6) =",multiplication(-2, 6))
-print("multiplication(-2, 0) =",multiplication(-2, 0))
+print("La multiplication de (3, 5) donne : ", multiplication(3, 5))
+print("La multiplication de (-4, -8) donne : ", multiplication(-4, -8))
+print("La multiplication de (-2, 6) donne : ", multiplication(-2, 6))
+print("La multiplication de (-2, 0) donne : ", multiplication(-2, 0))
 
 assert multiplication(3, 5) == 15
 assert multiplication(-4, -8) == 32
@@ -27,12 +23,10 @@ assert multiplication(-2, 6) == -12
 assert multiplication(-2, 0) == 0
 
 print()
+print("---------------------------------------------")
+print()
 
-"""
-Exercice N°2
-"""
-
-print("\033[92mExercice N°2\033[0m")
+#Exercice 2
 
 def dichotomie(tab, x):
     """
@@ -52,7 +46,7 @@ def dichotomie(tab, x):
              fin = m - 1
     return False
 
-print("dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 28) =", dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 28))
-print("dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 27) =", dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 27))
+print("La dochotomie de ([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 28) donne : ", dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 28))
+print("La dochotomie de ([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 27) donne : ", dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 27))
 
-assert dichotomie([15, 16, 18, 19, 23, 24, 2
+assert dichotomie([15, 16, 18, 19, 23, 24, 28, 29, 31, 33], 28) == True

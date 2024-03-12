@@ -16,31 +16,30 @@ def taille(arbre, lettre):
     else:
         return 1
     
-print(taille(a, 'F'))
+print("La taille de l'arbre 'a' et de sommet 'F' est : ", taille(a, 'F'))
+
+assert taille(a, 'F') == 9
 
 
-
-
-
+print()
+print("-------------------------------------")
 print()
 
 
 #Exercice 2
 
 
-
-
-
-
-"""
-
 def tri_selection(tab):
     N = len(tab)
-    for k in range(...):
-        imin = ...
-        for i in range(... , N):
-            if tab[i] < ... :
+    for k in range(N):
+        imin = k
+        for i in range(k, N):
+            if tab[i] < tab[imin]:
                 imin = i
-        ... , tab[imin] = tab[imin] , ...
+        tab[k], tab[imin] = tab[imin], tab[k]
 
-"""
+
+
+liste = [41, 55, 21, 18, 12, 6, 25]
+tri_selection(liste)
+print("La liste [41, 55, 21, 18, 12, 6, 25] après tri donne : ", liste)

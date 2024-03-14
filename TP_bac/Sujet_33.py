@@ -43,3 +43,5 @@ def tri_selection(tab):
 liste = [41, 55, 21, 18, 12, 6, 25]
 tri_selection(liste)
 print("La liste [41, 55, 21, 18, 12, 6, 25] après tri donne : ", liste)
+
+assert liste == [6, 12, 18, 21, 25, 41, 55]

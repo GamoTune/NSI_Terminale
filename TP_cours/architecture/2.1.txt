@@ -1,1 +1,7 @@
-CPU : Central Pro
+CPU : Central Processing Unit
+GPU : Graphics Processing Unit
+DSP : Digital Signal Processor
+RAM : Random Access Memory
+Autre : Camera location capteur security
+Northbridge : Chipset
+Module de communication : Module de communication

@@ -23,3 +23,21 @@ def fusion(tab1, tab2):
     return tab
 
 print(fusion([-2, 4], [-3, 5, 10]))
+
+#Exercice 2
+
+romains = {"I":1, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000}
+
+romains = {"I":1, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000}
+
+def traduire_romain(nombre):
+    """ Renvoie l’écriture décimale du nombre donné en chiffres
+    romains """
+    if len(nombre) == 1:
+        return romains[nombre]
+    elif romains[nombre[0]] >= romains[nombre[1]]:
+        return romains[nombre[0]] + traduire_romain(nombre[1:])
+    else:
+        return traduire_romain(nombre[1:]) - romains[nombre[0]]
+    
+print(traduire_romain("MMXXIV"))

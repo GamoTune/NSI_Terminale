@@ -8,7 +8,7 @@ def fibonacci(n):
         fibo.append(fibo[i] + fibo[i+1])
     return fibo[-1]
 
-print(fibonacci(25))
+print(fibonacci(45))
 
 
 #Exercice 2
